@@ -1,4 +1,2 @@
 #!/bin/bash
-input="your_input"
-modified_input=$(echo "$input" | tr 'Ac' 'Ze')
-echo "$modified_input" 
+tr "A" "Z" | tr "c" "e" 
